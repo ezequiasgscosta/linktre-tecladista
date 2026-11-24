@@ -5,6 +5,13 @@
   --foreground: #ffffff;
 }
 
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+  min-height: 100%;
+   scrollbar-width: none;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -40,6 +47,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: .5s ease;
+}
+
+.links:active {
+  background-color: #d9d9d96b;
+  color: var(--color-cinza);
+}
+
+
+.links:hover {
+  background-color: #d9d9d96b;
+  color: var(--color-cinza);
 }
 
 .links img {
