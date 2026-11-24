@@ -20,7 +20,7 @@ export default function Links () {
                 width={30} height={30}
                  />
 </a>
-            <a className="links" href="#" target="blank">
+            <a className="links" href="tiktok.com/ezequiasgscosta" target="blank">
                  <p>tiktok</p>
                 <Image src="/tiktok.png" 
                 alt="TikTok" 
