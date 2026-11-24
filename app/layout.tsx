@@ -30,7 +30,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="pt-br"
       className={`${geistSans.variable} ${geistMono.variable} ${inriaSerif.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col items-center ">
+      <body className="min-h-full flex flex-col ">
         {children}
       </body>
     </html>

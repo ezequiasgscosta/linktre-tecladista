@@ -37,9 +37,10 @@ body {
 
 .links {
   font-family: var(--font-inria);
-  font-size: 2em;
+  font-size: 1.6em;
   background-color: var(--color-cinza);
-  width: 80%;
+  width: 80dvw;
+  max-width: 600px;
   color: var(--color-texto-preto);
   text-shadow: 2px 2px 2px black;
   border-radius: 7px;

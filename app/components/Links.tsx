@@ -6,21 +6,21 @@ export default function Links () {
             <div className="h-[60px] text-cinza font-inria text-[1.5em]">
                 <h2>Redes sociais</h2>
             </div>
-            <a className="links" href="https://www.instagram.com/ezequias.teclas?vrfl=MWR5Mjg3NG1nMWs2OA==">
+            <a className="links" href="https://www.instagram.com/ezequias.teclas?vrfl=MWR5Mjg3NG1nMWs2OA==" target="blank">
                 <p>Instagram </p> 
                <Image src="/instagram.png" 
                alt="Instagram" 
                width={30} height={30}
                 />
                 </a>
-            <a className="links" href="https://www.youtube.com/@kairoqueiroz">
+            <a className="links" href="https://www.youtube.com/@kairoqueiroz" target="blank">
                  <p>youtube</p> 
                 <Image src="/youtube.png" 
                 alt="YouTube" 
                 width={30} height={30}
                  />
 </a>
-            <a className="links" href="#">
+            <a className="links" href="#" target="blank">
                  <p>tiktok</p>
                 <Image src="/tiktok.png" 
                 alt="TikTok" 
